@@ -1,0 +1,197 @@
+
+
+
+
+
+.L{
+
+
+           
+@import "../scss/Modulos/Header";
+@import "../scss/Modulos/Main";
+@import "../scss/Modulos/Footer";
+@import "../scss/Modulos/Imagenes";
+@import "../scss/Modulos/Mixins";
+@import "../scss/Modulos/Contacto";
+
+
+
+* {@include reset();
+    
+}
+
+
+@include parrafo();
+
+@include responsive(480px){
+    main{
+        @include flexbox();
+    }   
+
+}
+
+
+
+@include responsive(480px){
+    nav ul li a{
+        @include flexbox();
+    }   
+
+}
+
+@include responsive(480px){
+    main{
+        .videox{
+            width: 100%;
+            height: 50%;
+        }
+
+        .imgxx{
+            width: 100%;
+            height: 50%;
+
+        }
+
+        .imgxxx{
+            width: 100%;
+            height: 50%;
+
+        }
+
+     
+
+    }   
+
+}
+
+@include responsive(480px){
+    Header{
+        @include flexbox();
+    }   
+
+}
+
+@include responsivetablet(768px){
+    main{
+        @include flexbox();
+    }   
+
+}
+
+@include responsivetablet(768px){
+    Header{
+        @include flexbox();
+      
+    }   
+
+}
+
+@include responsivetablet(768px){
+    nav ul li a{
+        @include flexbox();
+    }   
+
+}
+
+@include responsivetablet(768px){
+    main{
+        .videox{
+            width: 100%;
+            height: 40%;
+        }
+
+    
+
+        .imgxx{
+            width: 60%;
+            height: 40%;
+
+        }
+
+        .imgxxx{
+            width: 100%;
+            height: 50%;
+           
+
+        }
+    }   
+
+   
+
+}
+
+@include responsive(480px){
+    Footer{
+        @include flexbox ();
+
+        }
+
+    }
+
+@include responsivetablet(768px){
+    Footer{
+        @include flexbox ();
+
+        }
+
+    }
+
+ 
+    body{
+        @include body();
+        background-color: rgb(227, 182, 235);
+       
+    }
+
+    #logo img{
+        width: 40%;
+    
+
+}
+
+.imgxxx{
+    width: 90%;
+    
+   
+}
+
+.maingaleria{
+   @include galeria(); 
+
+   .section11{
+    @include box
+   }
+
+   .section22{
+    @include box2
+   }
+
+   .section33{
+    @include box3
+   }
+
+   .section44{
+    @include box4
+   }
+
+   
+}
+
+.text{
+    color: black;
+    margin: 30px 30px;
+    font-size: 2rem;
+}
+
+}
+
+
+
+.bodyBT{
+    text-align: justify;
+
+@import "../scss/Modulos/Condicional";
+
+
+
+}
